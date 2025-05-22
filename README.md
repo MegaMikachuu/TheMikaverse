@@ -2,7 +2,7 @@
 The Mikaverse! 🚀✨
 
 Welcome to THE MIKAVERSE — where stardust meets hustle, and magic meets mayhem.  
-Created by Mika, the Sagittarius queen born 11/29/1991 ♐, this site is your portal to stories, spells, and sagas from the multiverse itself.
+Created by Mika, the Sagittarius queen ♐, this site is your portal to stories, spells, and sagas from the multiverse itself.
 
 ## What’s Inside?
 
