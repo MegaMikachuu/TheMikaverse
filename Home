@@ -1,0 +1,46 @@
+<head>
+```html
+<style>
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+  .star {
+    position: fixed;
+    width: 3px;
+    height: 3px;
+    background: #ffe066;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes fall {
+    0% {
+      transform: translateY(-10px) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) translateX(50px);
+      opacity: 0;
+    }
+  }
+</style>
+At the end of <body>, add:
+
+html
+Copy
+Edit
+<script>
+  const numStars = 30;
+  for(let i=0; i<numStars; i++){
+    const star = document.createElement('div');
+    star.classList.add('star');
+    star.style.left = Math.random() * 100 + 'vw';
+    star.style.top = Math.random() * -100 + 'vh';
+    star.style.animationDuration = (Math.random() * 5 + 5) + 's';
+    star.style.animationDelay = (Math.random() * 10) + 's';
+    document.body.appendChild(star);
+  }
+</script>
