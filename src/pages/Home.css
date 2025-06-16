@@ -1,0 +1,39 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .homepage {
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .star {
+    position: fixed;
+    width: 3px;
+    height: 3px;
+    background: #ffe066;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-10px) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) translateX(50px);
+      opacity: 0;
+    }
+  }
+  

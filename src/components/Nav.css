@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.nav-bar {
+  background-color: #0d0d0d;
+  border-bottom: 2px solid #8e44ad;
+  padding: 1rem;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffe066;
+  box-shadow: 0 0 10px #aa00ff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-title {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px #ff00cc;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: #ffe066;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.nav-links li a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px #fff, 0 0 10px #8e44ad;
+}
+
+.footer {
+  margin-top: 5rem;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ccccff;
+  background-color: #1a001a;
+  padding: 1rem;
+  border-top: 2px dashed #8e44ad;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: #ccccff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+  color: #ffe066;
+}
