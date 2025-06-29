@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import "./Storyhub.css"
 
 export default function StoryHub() {
   
