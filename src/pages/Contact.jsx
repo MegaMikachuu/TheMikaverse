@@ -11,7 +11,7 @@ export default function Contact() {
     emailjs
       .send(
         "service_5gnvwxa", // Your EmailJS service ID
-        "template_7ml4g2b", // Your template ID
+        "template_juqwatt", // Your template ID
         {
           suggestion: suggestion,
           to_email: "lilnordia@gmail.com", // Optional if template uses dynamic fields
