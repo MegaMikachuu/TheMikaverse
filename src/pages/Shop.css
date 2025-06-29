@@ -1,28 +1,29 @@
 .shop-page {
-    min-height: calc(100vh - 120px); /* Adjust height to fill between Nav and Footer */
-    background-image: url('../assets/image0.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 0;
-  }
-  
-  .shop-overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent dark overlay */
-    width: 100%;
-    height: 100%;
-    padding: 4rem 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .shop-title {
-    color: #ffe066;
-    font-size: 2rem;
-    text-shadow: 2px 2px 5px #000;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-  }
-  
+  position: relative;
+  min-height: 100vh;
+  padding-top: 4rem; 
+  padding-bottom: 60rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('/public/image0.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center top .1rem;
+
+}
+
+.shop-overlay {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.4); 
+  border-radius: 12px;
+  max-width: 90%;
+  margin: 0 auto;
+}
