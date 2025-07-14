@@ -27,6 +27,8 @@ export default function Home() {
     <div className="homepage">
       <h1>The MikaVerse Home Page</h1>
       <h3>Welcome to the starscape</h3>
+
+      
     </div>
   );
 }

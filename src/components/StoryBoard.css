@@ -1,0 +1,43 @@
+.story-board {
+    padding: 40px;
+    background-color: #0a0a0a;
+    color: #e6e6e6;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .story-board h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stories {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .story-card {
+    background-color: #1c1c1c;
+    border-left: 6px solid #bb86fc;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .story-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .story-card h2 {
+    font-size: 1.5rem;
+    color: #bb86fc;
+    margin-bottom: 10px;
+  }
+  
+  .story-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  

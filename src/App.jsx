@@ -11,6 +11,7 @@ import Lore from  './pages/Lore.jsx'
 import Miko from './pages/Miko.jsx'
 import ADHD from './pages/Adhd.jsx';
 import Contact from './pages/Contact.jsx';
+import FeatureMe from './pages/FeatureMe.jsx';
 
 import './App.css';
 
@@ -29,6 +30,8 @@ function App() {
         <Route path="/miko" element={<Miko />} />
         <Route path="/adhd" element={<ADHD />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/featureMe" element={<FeatureMe />} />
+
 
 
 

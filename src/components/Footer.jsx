@@ -15,7 +15,7 @@ export default function Footer() {
         <a href="https://facebook.com" className="icon" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a href="https://instagram.com" className="icon" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/_mikachu_" className="icon" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a href="https://twitter.com" className="icon" target="_blank" rel="noopener noreferrer">

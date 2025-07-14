@@ -1,0 +1,75 @@
+.feature-me-container {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #f2f2f2;
+    background-color: #0d0d0d;
+  }
+  
+  .tiers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .tier-card {
+    background: #1a1a1a;
+    border: 2px solid #444;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tier-card:hover {
+    transform: scale(1.05);
+    border-color: #bb86fc;
+  }
+  
+  .tier-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .tier-card p {
+    font-size: 1rem;
+  }
+  
+  .tier-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #bb86fc;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .featured-soul {
+    margin-top: 60px;
+    border-top: 1px solid #444;
+    padding-top: 30px;
+  }
+  
+  .soul-card {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #2a2a2a, #1f1f1f);
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeInSoul 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fadeInSoul {
+    from {
+      opacity: 0.6;
+      transform: scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  

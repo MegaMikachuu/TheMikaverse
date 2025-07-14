@@ -14,6 +14,7 @@ export default function Nav() {
           <li><Link to="/lore">Lore, Characters & Short Stories</Link></li>
           <li><Link to="/about">About Mikachu</Link></li>
           <li><Link to="/miko">Miko's Page</Link></li>
+          <li><Link to="/featureMe">Feature Me</Link></li>
           <li><Link to="/adhd">ADHD Resource Hub</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
         </ul>
