@@ -2,7 +2,7 @@
 The Mikaverse! 🚀✨
 
 Welcome to THE MIKAVERSE — where stardust meets hustle, and magic meets mayhem.  
-Created by Mika, the Sagittarius queen born from chaos and Nebula Nectar ♐, this site is your portal to stories, spells, and sagas from the multiverse itself.
+Created by Mika, the adhd queen born from chaos and Nebula Nectar ♐, this site is your portal to stories, spells, and sagas from the multiverse itself.
 
 ## What’s Inside?
 
